@@ -73,8 +73,6 @@
 }
     body{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        background-image: url();
-        
         color: rgba(0, 0, 0, 0.733);
         background-size: cover;
     }
@@ -89,34 +87,23 @@
     main{ 
         vertical-align:center;
     }
-    .video-box{
-        height: 100vh;
-        display:flex;
-        align-items: center;
-        color:#fff;
-    }
-    .container-video{
-        max-width: 960px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin: auto;
-        text-align: center;
-    }
-    .fullscreen-video-wrap{
+    .video-box{ 
         position: relative;
+        height: 750px;
+        width: 100%;
+        align-items: center;
+        overflow: hidden;
+    }
+    .video{
+       position: absolute;
         top:0;
         left:0;
         width: 100%;
-        height: 100vh;
-        overflow: hidden;
-    }
-    .fullscreen-video-wrap video{
-        min-width: 100%;
-        min-height: 100%;
     }
     .video-content{
+        color:#fff;
         text-align: center;
-        z-index: 1;
+        z-index: 2;
     }
    .text{
         max-width: 960px;
