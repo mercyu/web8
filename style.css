@@ -11,8 +11,8 @@
         font-size: 12px;
     }
     #logo{
-        width:80px;
-        height:80px;
+        width:67px;
+        height:47px;
     }
     .header{
         height:90px;
@@ -21,19 +21,11 @@
      h1{
         font-size:16px;
     }
-    nav, h2 {
-        font-size:15px;
+    header h3{
+        font-size: 16px;
     }
-    .text, footer{
-        font-size:14px;
-    }
-    .product {
-        height: 280px;
-        width: 200px;
-    }
-    #slider{
-        max-width: 88%;
-        margin: 0 auto;
+    .video-content{
+        font-size: 18px;
     }
 }
 @media (min-width: 768px) {
@@ -41,17 +33,17 @@
         font-size: 20px;
     }
     h1{
-        font-size: 30px;
+        font-size: 40px;
     }
-    nav, h2{
-        font-size: 25px;
-    }
-     footer{
+    header h3{
         font-size: 18px;
-     }
+    }
+    .video-content{
+        font-size: 20px;
+    }
     #logo{
-        width:170px;
-        height:170px;
+        width:97px;
+        height:47px;
     }
     header{
         height: 180px;
@@ -85,9 +77,9 @@
     }
     .header{
         border-radius: 20px;
-        max-width:960px;
+       
     }
-    .header-title, .number a, .site a{
+    .header-title,.number a,.site a{
         color: #24aa17;
     }
     main{ 
