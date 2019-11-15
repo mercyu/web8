@@ -72,17 +72,23 @@
     }
 }
     body{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgba(0, 0, 0, 0.733);
+        font-family: 'Open Sans',Georgia, 'Times New Roman', Times, serif;
         background-size: cover;
+        color: #68676c;
+        font-size: 14px;
+        line-height: 1.42857;
     }
     header{
-        background-color: rgba(86, 158, 187, 0.5);
         width:100%;
+        background-color: #f8f8f8;
+        border-color: #e7e7e7;
     }
     .header{
         border-radius: 20px;
         max-width:960px;
+    }
+    .header-title, .number a, .site a{
+        color: #24aa17;
     }
     main{ 
         vertical-align:center;
