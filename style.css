@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i&display=swap&subset=cyrillic');
 @media (max-width: 370px) {
     #logo{
     display: none;
@@ -11,8 +12,8 @@
         font-size: 12px;
     }
     #logo{
-        width:67px;
-        height:47px;
+        width:57px;
+        height:40px;
     }
     .header{
         height:90px;
@@ -42,11 +43,14 @@
         font-size: 20px;
     }
     #logo{
-        width:97px;
+        width:67px;
         height:47px;
     }
     header{
         height: 180px;
+    }
+    .header{
+        width: 750px;
     }
     .text{
         font-size: 17px;
@@ -63,8 +67,13 @@
         height:240px;
     }
 }
+@media (min-width: 992px) {
+.header{
+    width: 970px;
+}
+}
     body{
-        font-family: 'Open Sans',Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Open Sans',sans-serif;
         background-size: cover;
         color: #68676c;
         font-size: 14px;
@@ -108,6 +117,7 @@
         max-width:970px;
         margin: 0 auto;
         z-index: 2;
+        align-content: center;
     }
     .video-content h1, .video-content p{
         color:#fff;
@@ -116,7 +126,6 @@
    .text{
         max-width: 960px;
         border:2px solid rgb(137, 225, 236);
-        
         border-radius: 5px;
     }
    .product {
@@ -127,12 +136,6 @@
     }
     .product:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    }
-    a:visited{
-        color:rgb(77, 72, 156);
-    }
-    a:link{
-        color:rgb(15, 90, 160);
     }
     .checked {
         color: rgb(255, 166, 0);
