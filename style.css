@@ -37,7 +37,7 @@
     header h3{
         font-size: 18px;
     }
-    .video-content,.header{
+    .video-content, .header{
         width: 750px;
         padding-left: 0;
         padding-right: 0;
@@ -61,7 +61,7 @@
     }
 }
 @media (min-width: 992px) {
-.header,.video-content{
+.header, .video-content{
     width: 970px;
 }
 .video-text{
@@ -90,11 +90,12 @@
         left: 0;
         right: 0;
     }
-    .name,.header-info,.button{
+    .name, .header-info, .button{
         float: left;
     }
     #navbar{
         clear: both;
+        border-color: #e7e7e7;
     }
     .header-title,.number a,.site a{
         color: #24aa17;
@@ -128,6 +129,7 @@
         align-items: center;
         overflow: hidden;
         z-index: -1;
+        border-color: #e7e7e7;
     }
     .video{
        position: absolute;
