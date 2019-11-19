@@ -1,18 +1,18 @@
 $(document).ready(function(){
 $('.slider').slick({
-    dots: true,
-    infinite: false,
+    dots: false,
+    infinite: true,
     speed: 200,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: false,
-          dots: true
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
         }
       },
       {
@@ -20,8 +20,8 @@ $('.slider').slick({
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: false,
-          dots: true
+          infinite: true,
+          dots: false
         }
       },
     ]

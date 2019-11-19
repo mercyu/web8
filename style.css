@@ -32,7 +32,7 @@
     .name{
         font-size: 18px;
     }
-    .video-content, .header{
+    .video-content, .header, .resp{
         width: 750px;
         padding-left: 0;
         padding-right: 0;
@@ -46,17 +46,18 @@
         margin: 0 10px 0 0;
         padding: 0 15px;
     }
-    header{
-        height: 180px;
-    }
+    
     .header-box{
         padding: 15px 0;
         position: relative;
         z-index: 5;
     }
+    .response{
+        padding: 80px 0 120px;
+    }
 }
 @media (min-width: 992px) {
-.header, .video-content{
+.header, .video-content, .resp{
     width: 970px;
 }
 .video-text{
@@ -67,7 +68,7 @@
 }
 }
 @media (min-width: 1200px){
-.header, .video-content{
+.header, .video-content, .resp{
     width: 1170px;
 }
 }
@@ -101,7 +102,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .header-title,.number a,.site a,i{
+    .header-title,.number a,.site a,i, .resp-link{
         color: #24aa17;
     }
     .bttn{
@@ -159,7 +160,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .video-content,.header{
+    .video-content,.header, .resp{
         margin-right: auto;
         margin-left: auto;
         padding-left: 15px;
@@ -177,6 +178,27 @@
     h1, .h1, h2, .h2, h3, .h3 {
         margin-top: 20px;
         margin-bottom: 10px;
+    }
+    .response{
+        background-image: url(img/review-bg.jpg) no-repeat center center/cover;
+        padding: 40px 0 60px;
+    }
+    .resp-title{
+        margin:20px 0 40px;
+        display: flex;
+        justify-content: space-between;
+        color: #000000;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .card{
+        background-image: url(img/review-i-bg.png) no-repeat  center/cover; 
+        margin: 15px;
+        padding: 30px;
+    }
+    .resp-content{
+        padding: 20px 0 0;
+        margin: 0 0 10px;
     }
    .product {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
