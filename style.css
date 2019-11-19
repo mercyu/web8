@@ -3,9 +3,7 @@
     #logo{
     display: none;
     }
-    .header{
-    height:60px;
-    }   
+     
 }
 @media (max-width: 768px) {
     body{
@@ -15,12 +13,9 @@
         width:57px;
         height:40px;
     }
-    .header{
-        height:90px;
-        max-width: 100%;
-    }
+    
      
-    header h3{
+    .name{
         font-size: 16px;
     }
     .video-content{
@@ -34,7 +29,7 @@
     h1{
         font-size: 40px;
     }
-    header h3{
+    .name{
         font-size: 18px;
     }
     .video-content, .header{
@@ -96,6 +91,11 @@
     #navbar{
         clear: both;
         border-color: #e7e7e7;
+    }
+    .header-menu{
+        clear: both;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .header-title,.number a,.site a,i{
         color: #24aa17;
