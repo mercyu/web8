@@ -102,7 +102,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .header-title,.number a,.site a,i, .resp-link{
+    .header-title,.number a,.site a,i, .resp-link, a:link{
         color: #24aa17;
     }
     .bttn{
