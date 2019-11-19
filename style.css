@@ -90,14 +90,14 @@
         left: 0;
         right: 0;
     }
-    .name, .header-info, .button{
+    .name, .header-info, .header-menu, .button{
         float: left;
     }
     #navbar{
         clear: both;
         border-color: #e7e7e7;
     }
-    .header-title,.number a,.site a{
+    .header-title,.number a,.site a,i{
         color: #24aa17;
     }
     .buttn{
