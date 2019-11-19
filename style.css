@@ -19,9 +19,7 @@
         height:90px;
         max-width: 100%;
     }
-     h1{
-        font-size:16px;
-    }
+     
     header h3{
         font-size: 16px;
     }
@@ -39,18 +37,27 @@
     header h3{
         font-size: 18px;
     }
-    .video-content{
+    .video-content,.header{
+        width: 750px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .video-text{
         font-size: 20px;
     }
     #logo{
         width:67px;
         height:47px;
+        margin: 0 10px 0 0;
+        padding: 0 15px;
     }
     header{
         height: 180px;
     }
-    .header{
-        width: 750px;
+    .header-box{
+        padding: 15px 0;
+        position: relative;
+        z-index: 5;
     }
     .text{
         font-size: 17px;
@@ -68,8 +75,14 @@
     }
 }
 @media (min-width: 992px) {
-.header{
+.header,.video-content{
     width: 970px;
+}
+.video-text{
+    width: 800px;
+}
+.bttn{
+    padding: 10px 25px;
 }
 }
     body{
@@ -81,15 +94,43 @@
     }
     header{
         width:100%;
-        background-color: #f8f8f8;
+       
         border-color: #e7e7e7;
     }
-    .header{
-        border-radius: 20px;
-       
+    .header-box{
+        float: none;
+        background-color: #f5f6f8;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .name,.header-info,.button{
+        float: left;
+    }
+    #navbar{
+        clear: both;
     }
     .header-title,.number a,.site a{
         color: #24aa17;
+    }
+    .buttn{
+        display: inline-block;
+        margin-bottom: 0;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 10px 15px;
+        line-height: 1.42857;
+        text-transform: lowercase;
+        font-weight: 600;
+        font-size: 18px;
+        background-color: #24aa17;
+        color: #ffffff;
+        transition: all 0.3s;
     }
     main{ 
         vertical-align:center;
@@ -105,23 +146,44 @@
     .video{
        position: absolute;
         top:0;
-        left:0;
-        width: 100%;
+        left:50%;
+        height: 750px;
+        width: auto;
+        transform: translateX(-50%);
     }
     .video-content{
         position: absolute;
-        top:0;
+        top:150px;
+        right: 0;
         left:0;
         text-align: center;
-        height: 750px;
         max-width:970px;
-        margin: 0 auto;
+        margin: auto;
         z-index: 2;
         align-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
     }
-    .video-content h1, .video-content p{
+    .video-content,.header{
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+     h1{
         color:#fff;
-        
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .video-text{
+        color:#fff;
+        margin: 20px auto 40px;
+    }
+    h1, .h1, h2, .h2, h3, .h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
    .text{
         max-width: 960px;
