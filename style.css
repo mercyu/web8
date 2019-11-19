@@ -66,6 +66,11 @@
     padding: 10px 25px;
 }
 }
+@media (min-width: 1200px){
+.header, .video-content{
+    width: 1170px;
+}
+}
     body{
         font-family: 'Open Sans',sans-serif;
         background-size: cover;
@@ -93,7 +98,6 @@
         border-color: #e7e7e7;
     }
     .header-menu{
-        clear: both;
         padding-left: 15px;
         padding-right: 15px;
     }
