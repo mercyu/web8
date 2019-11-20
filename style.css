@@ -222,6 +222,11 @@
         justify-content: space-between;
         padding-top: 8px;
     }
+    .img-responsive{
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
     .container{
         position: relative;
     }
@@ -243,8 +248,10 @@
     .arrow-next, .arrow-prev{
         width: 40px;
         height: 40px;
-        background: #fff;
-        color: #1a7d11;
+        color: #fff;
+        background: #1a7d11;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
     }
    .product {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
