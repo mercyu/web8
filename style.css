@@ -214,6 +214,9 @@
         max-width: 400px;
         height: 260px;
     }
+    .brand-name{
+        height: 70px;
+    }
     .resp-content{
         clear: both;
         padding: 20px 0 0;
