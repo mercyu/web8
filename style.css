@@ -13,7 +13,12 @@
         width:57px;
         height:40px;
     }
-    
+    .card{
+        padding: 15px;
+    }
+    .resp-content{
+        margin: 0 0 10px;
+    }
      
     .name{
         font-size: 16px;
@@ -229,22 +234,25 @@
     .container{
         position: relative;
     }
-    .arrow{
+    .arrow-prev{
+        position: absolute;
+        left: -30px;
         position: absolute;
         z-index: 2;
         top: 50%;
         width: 100%;
         margin-top: -20px;
     }
-    .arrow-prev{
-        position: absolute;
-        left: -30px;
-    }
     .arrow-next{
         position: absolute;
         right: -30px;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        width: 100%;
+        margin-top: -20px;
     }
-    .arrow-next, .arrow-prev{
+    i .arrow-next, i .arrow-prev{
         width: 40px;
         height: 40px;
         color: #fff;
