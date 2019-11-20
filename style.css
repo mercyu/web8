@@ -221,12 +221,10 @@
         clear: both;
         padding: 20px 0 0;
         margin: 0 0 10px;
+        height: 101px;
         overflow: hidden;
     }
     .resp-link{
-       /* display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;*/
         padding-top: 8px;
     }
     .img-responsive{
