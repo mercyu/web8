@@ -18,7 +18,9 @@
     .resp-content{
         margin: 0 0 10px;
     }
-     
+    .part{
+        width: 165px;
+    }
     .name{
         font-size: 16px;
     }
@@ -36,7 +38,7 @@
     .name{
         font-size: 18px;
     }
-    .video-content, .header, .resp{
+    .video-content, .header, .resp, .partner{
         width: 750px;
         padding-left: 0;
         padding-right: 0;
@@ -56,7 +58,7 @@
         position: relative;
         z-index: 5;
     }
-    .response{
+    .response, .partners{
         padding: 80px 0 120px;
     }
     .card{
@@ -65,7 +67,7 @@
     }
 }
 @media (min-width: 992px) {
-.header, .video-content, .resp{
+.header, .video-content, .resp, .partner{
     width: 970px;
 }
 .video-text{
@@ -80,7 +82,7 @@
 }
 }
 @media (min-width: 1200px){
-.header, .video-content, .resp{
+.header, .video-content, .resp, .partner{
     width: 1170px;
 }
 .card{
@@ -176,7 +178,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .video-content,.header, .resp{
+    .video-content,.header, .resp, .partner{
         margin-right: auto;
         margin-left: auto;
         padding-left: 15px;
@@ -195,11 +197,18 @@
         margin-top: 20px;
         margin-bottom: 10px;
     }
+    .partners{
+        padding: 40px 0 60px;
+    }
+    .part{
+        vertical-align: middle;
+        width: 292.5px;
+    }
     .response{
         background: url(img/review-bg.jpg) no-repeat center center/cover;
         padding: 40px 0 60px;
     }
-    .resp-title{
+    .resp-title, .part-title{
         margin:20px 0 40px;
         display: flex;
         justify-content: space-between;
