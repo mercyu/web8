@@ -204,7 +204,8 @@
         font-size: 30px;
     }
     .card{
-        background-image: url(img/review-i-bg.png)no-repeat center center; 
+        background-color: #ffffff;
+        background-image: url(img/review-i-bg.png) no-repeat center center; 
         margin: 15px;
         padding: 40px 30px;
         max-width: 400px;
@@ -215,19 +216,35 @@
         padding: 20px 0 0;
         margin: 0 0 10px;
     }
-    .img-responsive{
-        max-width: 100px;
+    .resp-link{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 8px;
     }
-    .slick-next, .slick-prev{
+    .slider{
+        position: relative;
+    }
+    .arrow{
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        width: 100%;
+        margin-top: -20px;
+    }
+    .arrow-prev{
+        position: absolute;
+        left: -30px;
+    }
+    .arrow-next{
+        position: absolute;
+        right: -30px;
+    }
+    .arrow-next, .arrow-prev{
         width: 40px;
         height: 40px;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 50%;
         background: #fff;
         color: #1a7d11;
-        transition: all 0.3s ease-in;
-        cursor: pointer;
     }
    .product {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
