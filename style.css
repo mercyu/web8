@@ -13,7 +13,7 @@
         height:40px;
     }
     .card{
-        padding: 15px;
+        padding: 15px !important;
     }
     .resp-content{
         margin: 0 0 10px;
@@ -239,11 +239,17 @@
         height: 40px;
         text-align: center;
         line-height: 40px;
-        border-radius: 50%;
-        background: #fff;
-        color: #1a7d11;
+        border-radius: 60%;
+        border: 3px solid white;
+        color: #fff;
+        background: #1a7d11;
         transition: all 0.3s ease-in;
         cursor: pointer;
+    }
+    .slick-next:before:hover, .slick-prev:before:hover{
+        background: #fff;
+        color: #1a7d11;
+        border: 3px solid #1a7d11;
     }
     .links{
         text-decoration: underline;
