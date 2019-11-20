@@ -114,7 +114,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .header-title,.number a,.site a,i, .resp-link, a:link{
+    .header-title,.number a,.site a,i, .resp-link, a:link, a{
         color: #24aa17;
     }
     .bttn{
@@ -204,8 +204,7 @@
         font-size: 30px;
     }
     .card{
-        background-color: #ffffff;
-        background: url(img/review-i-bg.png) no-repeat center center; 
+        background: url(img/review-i-bg.png) no-repeat center center #ffffff; 
         margin: 15px;
         padding: 40px 30px;
         max-width: 400px;
@@ -252,6 +251,13 @@
         background: #1a7d11;
         cursor: pointer;
         transition: all 0.3s ease-in;
+    }
+    .links{
+        text-decoration: underline;
+        text-transform: uppercase;
+        color: #24aa17;
+        font-weight: 600;
+        font-size: 15px;
     }
    .product {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
