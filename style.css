@@ -216,9 +216,9 @@
         margin: 0 0 10px;
     }
     .resp-link{
-        display: flex;
+       /* display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-between;*/
         padding-top: 8px;
     }
     .img-responsive{
