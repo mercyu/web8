@@ -227,7 +227,7 @@
         font-weight: 900;
         text-transform: uppercase;
     }
-    .proj i, .proj span, .proj .data{
+    .proj i, .proj span, .proj .date{
         color: #ffffff;
     }
     .new{
