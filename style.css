@@ -18,7 +18,7 @@
     .resp-content{
         margin: 0 0 10px;
     }
-    .partners, .new{
+    .partners, .new, .projects{
         padding: 40px 0 60px;
     }
     .part{
@@ -45,7 +45,7 @@
     .name{
         font-size: 18px;
     }
-    .video-content, .header, .resp, .partner, .new1{
+    .video-content, .header, .resp, .partner, .new1, .proj{
         width: 750px;
         padding-left: 0;
         padding-right: 0;
@@ -59,13 +59,12 @@
         margin: 0 10px 0 0;
         padding: 0 15px;
     }
-    
     .header-box{
         padding: 15px 0;
         position: relative;
         z-index: 5;
     }
-    .response, .partners, .new{
+    .response, .partners, .new, .projects{
         padding: 80px 0 120px;
     }
     .card{
@@ -74,7 +73,7 @@
     }
 }
 @media (min-width: 992px) {
-.header, .video-content, .resp, .partner, .new1{
+.header, .video-content, .resp, .partner, .new1, .proj{
     width: 970px;
 }
 .video-text{
@@ -89,7 +88,7 @@
 }
 }
 @media (min-width: 1200px){
-.header, .video-content, .resp, .partner, .new1{
+.header, .video-content, .resp, .partner, .new1, .proj{
     width: 1170px;
 }
 .card{
@@ -185,7 +184,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .video-content,.header, .resp, .partner, .new1{
+    .video-content,.header, .resp, .partner, .new1, .proj{
         margin-right: auto;
         margin-left: auto;
         padding-left: 15px;
@@ -197,6 +196,28 @@
     h1, .h1, h2, .h2, h3, .h3 {
         margin-top: 20px;
         margin-bottom: 10px;
+    }
+    .pr-info{
+        display: flex;
+        justify-content: space-around;
+    }
+    .pr{
+        width: 280px;
+        height: 280px;
+        position: relative;
+    }
+    .pr-block{
+        background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7) 80%);
+        position: absolute;
+        bottom: 0;
+        padding: 40px 20px 40px;
+        width: 100%;
+    }
+    .pr-block a{
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 900;
+        text-transform: uppercase;
     }
     .new{
         background: url(img/adv-bg.png) no-repeat center center/contain;
@@ -236,7 +257,6 @@
     }
     .card{
         background: url(img/review-i-bg.png) no-repeat center center #ffffff; 
-        
         padding: 40px 30px;
         max-width: 400px;
         height: 260px;
