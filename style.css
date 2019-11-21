@@ -198,11 +198,16 @@
         margin-bottom: 10px;
     }
     .pr-info{
-        position: absolute;
-        bottom: 0;
-        left: 0;
         display: flex;
-        justify-content: space-around;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        line-height: 17px;
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+        width: 100%;
+        padding: 0 20px;
     }
     .likes{
         display: inline-block;
