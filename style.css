@@ -31,7 +31,7 @@
         font-size: 18px;
     }
     #slider{
-        max-width: 88%;
+        max-width: 94%;
         margin: 0 auto;
     }
 }
@@ -191,13 +191,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-     h1{
-        color:#fff;
-        font-size: 40px;
-        font-weight: 900;
-    }
     .video-text{
-        
         margin: 20px auto 40px;
     }
     h1, .h1, h2, .h2, h3, .h3 {
@@ -206,6 +200,9 @@
     }
     .new{
         background: url(img/adv-bg.png) no-repeat center center/contain;
+    }
+    .new-title{
+        margin-bottom:25px;
     }
     .title1, .text1{
         padding-left: 70px;
@@ -286,6 +283,11 @@
         color: #24aa17;
         font-weight: 600;
         font-size: 15px;
+    }
+     h1{
+        color:#fff;
+        font-size: 40px;
+        font-weight: 900;
     }
     h2{
         color: #000000;
