@@ -18,6 +18,9 @@
     .resp-content{
         margin: 0 0 10px;
     }
+    .partners, .new{
+        padding: 40px 0 60px;
+    }
     .part{
         width: 165px !important;
     }
@@ -203,11 +206,11 @@
     }
     .new{
         background: url(img/adv-bg.png) no-repeat center center/contain;
-        padding: 40px 0 60px;
     }
-    .partners{
-        padding: 40px 0 60px;
+    .title1, .text1{
+        padding-left: 70px;
     }
+    
     .brands-logo{
         display: flex;
         flex-flow: row wrap;
@@ -279,6 +282,11 @@
         color: #24aa17;
         font-weight: 600;
         font-size: 15px;
+    }
+    h2{
+        color: #000000;
+        font-weight: 900;
+        font-size: 30px;
     }
    .product {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
