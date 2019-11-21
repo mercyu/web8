@@ -210,7 +210,11 @@
     .title1, .text1{
         padding-left: 70px;
     }
-    
+    .title1{
+        font-weight: 600;
+        font-size: 17px;
+        color: #000000;
+    }
     .brands-logo{
         display: flex;
         flex-flow: row wrap;
