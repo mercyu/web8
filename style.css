@@ -212,8 +212,8 @@
         display: inline-block;
     }
     .pr{
-        max-width:300px;
-        height: 100;
+        max-width:280px;
+        max-height: 280px;
         position: relative;
     }
     .pr-block{
