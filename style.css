@@ -212,8 +212,6 @@
         display: inline-block;
     }
     .pr{
-        max-width:280px;
-        max-height: 280px;
         position: relative;
     }
     .pr-block{
@@ -224,6 +222,7 @@
         padding: 40px 20px 40px;
         width: 100%;
         color: #ffffff;
+        z-index: 1;
     }
     .pr-block a{
         color: #ffffff;
