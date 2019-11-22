@@ -209,7 +209,8 @@
         padding: 0 20px;
     }
     .likes{
-        display: inline-block;
+        display:flex;
+        flex-flow: row nowrap;
     }
     .pr{
         position: relative;
