@@ -214,9 +214,11 @@
     }
     .pr{
         position: relative;
-        padding: 0;
         margin: auto;
         max-width: 280px;
+    }
+    .pro{
+        position: relative;
     }
     .img-r{
         width: 100%;
