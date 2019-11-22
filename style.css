@@ -216,6 +216,7 @@
         position: relative;
         padding: 0;
         margin: auto;
+        max-width: 280px;
     }
     .img-r{
         width: 100%;
