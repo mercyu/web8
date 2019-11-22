@@ -212,10 +212,15 @@
     .likes{
         display: inline-block;
     }
+    .pro{
+        position: relative;
+        width: auto;
+    }
     .pr{
         max-width: 273px;
         height: auto;
         position: absolute;
+        z-index: -1;
     }
     .pr-block{
         background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7) 80%);
