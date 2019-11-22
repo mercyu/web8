@@ -105,7 +105,6 @@
     }
     header{
         width:100%;
-       
         border-color: #e7e7e7;
     }
     .header-box{
@@ -212,15 +211,10 @@
     .likes{
         display: inline-block;
     }
-    .pro{
-        position: relative;
-        width: auto;
-    }
     .pr{
-        max-width: 273px;
+        width:auto;
         height: auto;
-        position: absolute;
-        z-index: -1;
+        position: relative;
     }
     .pr-block{
         background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7) 80%);
