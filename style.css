@@ -213,7 +213,6 @@
         flex-flow: row nowrap;
     }
     .pr{
-        position: relative;
         margin: auto;
         max-width: 280px;
     }
