@@ -64,6 +64,12 @@
         position: relative;
         z-index: 5;
     }
+    .image2{
+        left: 20%;
+    }
+    .sh-title{
+        padding-left: 20%;
+    }
     .response, .partners, .new, .projects{
         padding: 80px 0 120px;
     }
@@ -81,6 +87,12 @@
 }
 .bttn{
     padding: 10px 25px;
+}
+.image2{
+    left: 40%;
+}
+.sh-title{
+    padding-left: 40%;
 }
 .card{
     height: 290px;
@@ -195,6 +207,30 @@
     h1, .h1, h2, .h2, h3, .h3 {
         margin-top: 20px;
         margin-bottom: 10px;
+    }
+    .shadow{
+        margin-top:-60px;
+        padding: 0 0 40px;
+    }
+    .sh{
+        position: relative;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        background-color: transparent;
+    }
+    .image1{
+        position: absolute;
+        border-radius: 0 0 0 100%;
+        top:-10%;
+        right: 0;
+    }
+    .image2{
+        position: absolute;
+        top:25%;
+        left: 40%;
+    }
+    .sh-title{
+        padding-left: 40%;
+        max-width: 60%;
     }
     .pr-info{
         display: flex;
