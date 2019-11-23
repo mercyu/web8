@@ -45,7 +45,7 @@
     .name{
         font-size: 18px;
     }
-    .video-content, .header, .resp, .partner, .new1, .proj{
+    .video-content, .header, .resp, .partner, .new1, .proj .container{
         width: 750px;
         padding-left: 0;
         padding-right: 0;
@@ -64,13 +64,16 @@
         position: relative;
         z-index: 5;
     }
+    .sh{
+        padding: 140px 0 0 20px;
+    }
     .image2{
         left: 20%;
     }
     .sh-title{
         padding-left: 20%;
     }
-    .response, .partners, .new, .projects{
+    .response, .partners, .new, .projects, .shadow{
         padding: 80px 0 120px;
     }
     .card{
@@ -79,7 +82,7 @@
     }
 }
 @media (min-width: 992px) {
-.header, .video-content, .resp, .partner, .new1, .proj{
+.header, .video-content, .resp, .partner, .new1, .proj .container{
     width: 970px;
 }
 .video-text{
@@ -87,6 +90,9 @@
 }
 .bttn{
     padding: 10px 25px;
+}
+.sh{
+    padding: 150px 0 0 40px;
 }
 .image2{
     left: 40%;
@@ -100,7 +106,7 @@
 }
 }
 @media (min-width: 1200px){
-.header, .video-content, .resp, .partner, .new1, .proj{
+.header, .video-content, .resp, .partner, .new1, .proj .container{
     width: 1170px;
 }
 .card{
@@ -195,7 +201,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .video-content,.header, .resp, .partner, .new1, .proj{
+    .video-content,.header, .resp, .partner, .new1, .proj, .container{
         margin-right: auto;
         margin-left: auto;
         padding-left: 15px;
@@ -216,9 +222,10 @@
         background-color: transparent;
     }
     .sh{
-        position: relative;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
         background-color: #ffffff;
+        box-shadow: 0 10px 50px rgba(0,0,0,0.15);
+        height: 240px;
+        position: relative;
     }
     .image1{
         position: absolute;
