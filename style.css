@@ -212,10 +212,13 @@
         margin-top:-60px;
         padding: 0 0 40px;
     }
+    .shad{
+        background-color: transparent;
+    }
     .sh{
         position: relative;
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-        background-color: transparent;
+        background-color: #ffffff;
     }
     .image1{
         position: absolute;
