@@ -67,6 +67,13 @@
     .sh{
         padding: 140px 0 0 20px;
     }
+    .sh-title{
+        max-width: 100%;
+        padding-right: 10px;
+    }
+    .image1{
+        width: 70%;
+    }
     .image2{
         left: 20%;
     }
@@ -94,11 +101,15 @@
 .sh{
     padding: 150px 0 0 40px;
 }
+.image1{
+    width: auto;
+}
 .image2{
     left: 40%;
 }
 .sh-title{
-    padding-left: 40%;
+    max-width: 75%;
+    padding-right: 0;
 }
 .card{
     height: 290px;
@@ -114,6 +125,9 @@
     padding: 40px 30px;
 }
 }
+    html{
+    -webkit-tap-highlight-color: transparent;
+    }
     body{
         font-family: 'Open Sans',sans-serif;
         background-size: cover;
@@ -236,8 +250,7 @@
         left: 40%;
     }
     .sh-title{
-        padding-left: 40%;
-        max-width: 60%;
+        max-width: 75%;
     }
     .pr-info{
         display: flex;
