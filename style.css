@@ -237,6 +237,8 @@
         box-shadow: 0 10px 50px rgba(0,0,0,0.15);
         height: 240px;
         position: relative;
+        overflow: hidden;
+        padding: 150px 0 0 40px;
     }
     .image1{
         position: absolute;
