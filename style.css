@@ -34,6 +34,9 @@
         max-width: 94%;
         margin: 0 auto;
     }
+    .states{
+        padding: 40px 0 60px;
+    }
 }
 @media (min-width: 768px) {
     body{
@@ -128,10 +131,10 @@
     margin: -100px -10px 0;
     float: right;
 }
-/*.st-info{
+.st-link{
     clear: none;
     padding-top: 0;
-}*/
+}
 .card{
     height: 290px;
     padding: 30px;
@@ -422,7 +425,6 @@
         font-size: 15px;
     }
     .states{
-        padding: 40px 0 60px;
         background: url(img/artic-bg.png) no-repeat center top;
     }
     .st-title{
@@ -454,10 +456,10 @@
         padding: 40px 15px 30px;
         margin-left: 0;
     }
-    /*.st-info{
+    .st-link{
         clear: both;
         padding-top: 20px;
-    }*/
+    }
     .st-info{
         display: flex;
         flex-flow: row nowrap;
