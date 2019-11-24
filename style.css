@@ -41,6 +41,10 @@
         clear: both;
         padding-top: 20px;
     }
+    .arch-card{
+        height: 340px;
+        padding: 25px 20px;
+    }
 }
 @media (min-width: 768px) {
     body{
@@ -507,8 +511,9 @@
         padding: 40px 0 60px;
     }
     .arch-card{
-        height: 340px;
         position: relative;
+        height: 340px;
+        
         padding: 25px 20px;
         background-color: #ffffff;
         width: 100%;
