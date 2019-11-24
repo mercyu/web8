@@ -154,6 +154,9 @@
     height: 440px;
     padding: 20px 10px;
 }
+.for{
+    padding: 0 10px;
+}
 }
 @media (min-width: 1200px){
 .header, .video-content, .resp, .partner, .new1, .proj .container, .state, .form-box{
@@ -544,6 +547,9 @@
         text-align: center;
         vertical-align: middle;
         cursor: pointer;
+    }
+    .for{
+        padding: 10px;
     }
     .f-text{
         line-height: 1.6;
