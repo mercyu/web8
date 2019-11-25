@@ -462,8 +462,12 @@
     }
     .st-1{
         padding: 10px;
-        max-width: 310px;
+        max-width: 300px;
         margin: auto;
+        float: none;
+    }
+    .st-2{
+        width: auto;
         float: none;
     }
     .st-text{
@@ -541,6 +545,10 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 1.4;
+    }
+    .archive .button1{
+        position: absolute;
+        bottom: 35px;
     }
     .button1{
         display: inline-block;
