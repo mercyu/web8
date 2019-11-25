@@ -319,7 +319,7 @@
         font-size: 22px;
     }
     .proj-content{
-        margin: 40px -10px 0;
+        margin: 0 -10px 0;
     }
     .pr-info{
         display: flex;
@@ -372,9 +372,7 @@
     .new{
         background: url(img/adv-bg.png) no-repeat center center/contain;
     }
-    .new-title{
-        margin-bottom:40px !important;
-    }
+    
     .new .title1, .new .text1{
         padding-left: 70px;
     }
@@ -592,8 +590,11 @@
     }
     h2{
         color: #000000;
-        font-weight: 900;
+        font-weight: 900 !important;
         font-size: 30px;
+    }
+    .new-title{
+        margin-bottom:40px !important;
     }
     .st-link a, .respLink a, .respLink1 a, .parts-link a, .pr-link a, .f-link a, .arch-link a{
         padding-left:10px;
