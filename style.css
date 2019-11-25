@@ -18,7 +18,7 @@
     .resp-content{
         margin: 0 0 10px;
     }
-    .partners, .new, .projects, .form{
+    .partners, .new, .projects, .form, .archive{
         padding: 40px 0 60px;
     }
     .part{
@@ -508,7 +508,7 @@
     }
     .archive{
         background: url(img/news-bg.jpg) no-repeat center center/cover;
-        padding: 40px 0 60px;
+     
     }
     .arch-card{
         position: relative;
