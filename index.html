@@ -25,11 +25,11 @@ type="image/jpg">
     <header class="container-fluid">
       <div class="header-box row">
      <div class="header d-inline-block">
-     <div class="header-title col-xs-8 col-md-6 col-lg-4">
-       <div class="col-auto"><img id="logo" src="https://www.neo-agriservis.ru/sites/default/files/logo.jpg" alt="logo"/></div>
-         <div class="name">Новый век агротехнологий</div>
+     <div class="header-title col-xs-8 col-md-6 col-lg-4 ">
+       <div class="col-auto "><img id="logo" src="https://www.neo-agriservis.ru/sites/default/files/logo.jpg" alt="logo"/></div>
+         <span class="name">Новый век агротехнологий</span>
        </div>
-       <div class="header-menu d-lg-inline-block hidden-xs hidden-sm hidden-md col-lg-3">
+       <div class="header-menu d-none d-lg-inline-block col-lg-3">
        <div>
          <i class="fa fa-check" aria-hidden="true"></i>
         <span>Капельное орошение</span>
@@ -43,12 +43,12 @@ type="image/jpg">
          <span>Упаковка для овощных культур</span>
         </div>
        </div>
-       <div class="header-info hidden-xs hidden-sm col-md-3">
+       <div class="header-info d-none d-md-block col-md-3">
          <div class="number">
           <div><a href="tel:88005558688" class="callibri-phone">8 800 555-86-88</a></div>
           <div class="description mb-1">Звонок по России - бесплатный</div>
          </div>
-         <div class="site hidden-xs col-sm-4 col-md-3 col-lg-2">
+         <div class="site d-none d-sm-block col-sm-4 col-md-3 col-lg-2">
          <div> <a href="mailto:info@neo-agriservis.ru">info@neo-agriservis.ru</a></div>
          <div class="contacts-block__time">Пн.-Пт.: 8:30 - 17:00</div>
          </div>
@@ -142,7 +142,7 @@ type="image/jpg">
     <div class="poj-title">
       <h2>Реализованные проекты систем<br>капельного орошения</h2>
     </div>
-    <div class=" clearfix mb-3">
+    <div class=" clearfix mb-3 d-none d-md-block">
       <div class="pr-link float-right links">
       <img src="img/plant-icon.png" alt="Все отзывы">
       <a href="">Все проекты</a>
@@ -271,6 +271,12 @@ type="image/jpg">
     </div>
    
     </div>
+    <div class="clearfix d-none d-sm-block d-md-none">
+        <div class="pr-link float-left links ">
+            <img src="img/plant-icon.png" alt="Все отзывы">
+            <a href="">Все проекты</a>
+          </div>
+        </div>
   </div>
 </section>
 
@@ -302,6 +308,7 @@ type="image/jpg">
         </div>
       </div>
     </div>
+   
   </div>
 </section>
 
@@ -332,7 +339,7 @@ type="image/jpg">
       <div class="resp">
         <div class="resp-title">
           <h2>Отзывы наших клиентов</h2>
-          <div class="respLink links d-sm-none d-md-block">
+          <div class="respLink links d-none d-md-block">
             <img src="img/reviews-icon.png" alt="Все отзывы">
             <a href="">Все отзывы</a>
           </div>
@@ -733,7 +740,7 @@ type="image/jpg">
 
    </div>
    </div>
-   <div class="arch-link links float-right d-block d-md-none">
+   <div class="arch-link links float-left d-block d-md-none">
     <img src="img/news-icon.png" alt="Все отзывы">
     <a href="">Все новости</a>
   </div>
