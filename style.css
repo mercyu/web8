@@ -107,7 +107,7 @@
     }
     .f-link{
         margin-left: 30px;
-        padding-left: 30px;
+        padding-left: 20px;
         margin-top: 10px;
     }
 }
@@ -395,7 +395,7 @@
         background: url(img/review-bg.jpg) no-repeat center center/cover;
         padding: 40px 0 60px;
     }
-    .resp-title, .part-title{
+    .resp-title, .part-title, .arch-title{
         margin:20px 0 40px;
         display: flex;
         justify-content: space-between;
@@ -592,6 +592,9 @@
         color: #000000;
         font-weight: 900 !important;
         font-size: 30px;
+    }
+    .proj-title h2{
+        margin-bottom: 0;
     }
     .new-title{
         margin-bottom:40px !important;
