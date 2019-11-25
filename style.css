@@ -86,9 +86,9 @@
     .image1{
         width: 70%;
     }
-    /*.image2{
-        padding-left:20px;
-    }*/
+    .pr{
+        float: left;
+    }
     .response, .partners, .new, .projects, .shadow, .states, .archive, .forms{
         padding: 80px 0 120px;
     }
@@ -126,13 +126,13 @@
 }
 .image1{
     width: auto;
-}/*
-.image2{
-    padding-left: 40px;
-}*/
+}
 .sh-title{
     max-width: 75%;
     padding-right: 0;
+}
+.pr{
+    padding: 0 10px;
 }
 .st-text{
     width: 25%;
@@ -318,6 +318,9 @@
         font-weight: 900;
         font-size: 22px;
     }
+    .proj-content{
+        margin: 40px -10px 0;
+    }
     .pr-info{
         display: flex;
         flex-flow: row nowrap;
@@ -335,11 +338,15 @@
         flex-flow: row nowrap;
     }
     .pr{
-        margin: auto;
-        max-width: 280px;
-    }
-    .pro{
+        padding: 10px;
         position: relative;
+        max-width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .pr-card{
+        position: relative;
+        width: 100%;
     }
     .img-r{
         width: 100%;
@@ -356,20 +363,17 @@
         width: 100%;
         color: #ffffff;
     }
-    .pr-block a{
+    .pr-title1 a{
         color: #ffffff;
         font-size: 14px;
         font-weight: 900;
         text-transform: uppercase;
     }
-    .proj i, .proj span, .proj .date{
-        color: #ffffff;
-    }
     .new{
         background: url(img/adv-bg.png) no-repeat center center/contain;
     }
     .new-title{
-        margin-bottom:25px !important;
+        margin-bottom:40px !important;
     }
     .new .title1, .new .text1{
         padding-left: 70px;
@@ -483,7 +487,7 @@
         padding: 40px 15px 30px;
         margin-left: 0;
     }
-    .st-info{
+    .st-info, .pr-info{
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -494,6 +498,9 @@
         bottom: 10px;
         width: 100%;
         padding: 0 20px;
+        color: #ffffff;
+    }
+    .proj i, .proj span, .proj .date, .st-card i, .st-card span, .st-card .date{
         color: #ffffff;
     }
     .st-title1{
@@ -546,10 +553,6 @@
         font-size: 18px;
         line-height: 1.4;
     }
-    .archive .button1{
-        position: absolute;
-        bottom: 35px;
-    }
     .button1{
         display: inline-block;
         padding: 8px 25px;
@@ -564,6 +567,10 @@
         text-align: center;
         vertical-align: middle;
         cursor: pointer;
+    }
+    .archive .button1{
+        position: absolute;
+        bottom: 35px;
     }
     .for{
         padding: 10px;
