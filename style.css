@@ -18,6 +18,10 @@
         width:57px;
         height:40px;
     }
+    .logo{
+        margin: 0;
+        padding: 0 7px;
+    }
     .card{
         padding: 25px !important;
     }
@@ -84,6 +88,8 @@
     #logo{
         width:67px;
         height:47px;
+    }
+    .logo{
         margin: 0 10px 0 0;
         padding: 0 15px;
     }
@@ -213,7 +219,6 @@
         line-height: 1.42857;
     }
     header{
-        width:100%;
         background-color: #f8f8f8;
         border-color: #e7e7e7;
     }
