@@ -645,10 +645,14 @@
         border-top: 1px solid #E5E5E5;
         background-color: #f5f6f8;
         border-top: 0;
-
+        width: 100%;
     }
     .foot{
         position: relative;
+    }
+    .foot-text{
+        display: block;
+        margin-bottom: 3px;
     }
     .company{
         width: 50%;
