@@ -22,6 +22,10 @@
         margin: 0;
         padding: 0 7px;
     }
+    .nav-name{
+        font-size: 16px;
+        line-height: 1.2;
+    }
     .card{
         padding: 25px !important;
     }
@@ -69,8 +73,9 @@
         z-index: 100;
         float: left;
     }
-    .name{
+    .nav-name{
         font-size: 18px;
+        line-height: 3;
     }
     .video-content, .header, .resp, .partner, .new1, .proj .container, .state, .form-box, .header{
         width: 750px;
@@ -230,6 +235,11 @@
         left: 0;
         right: 0;
         margin: auto;
+    }
+    .nav-name{
+        height: 50px;
+        text-decoration: none;
+        padding: 0;
     }
     .name, .header-info, .header-menu, .button, .resp-content{
         float: left;
@@ -616,6 +626,14 @@
         background: url(img/articles-bg.jpg) no-repeat center center/contain;
         height: 410px;
         display: block;
+    }
+    .soc{
+        display: block;
+        line-height: 28px;
+        text-align: center;
+        font-family: 'FontAwesome';
+        color: #ffffff;
+        font-size: 18px;
     }
      h1{
         color:#fff;
