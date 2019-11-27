@@ -8,6 +8,12 @@
     body{
         font-size: 12px;
     }
+    .header-box{
+        position: fixed;
+        z-index: 99;
+        padding: 10px 0;
+        float: none;
+    }
     #logo{
         width:57px;
         height:40px;
@@ -50,13 +56,24 @@
     body{
         font-size: 20px;
     }
-    h1{
-        font-size: 40px;
+    .navbar{
+        min-height: 79px;
+        background-color: transparent;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        position: relative;
+    }
+    .header-box{
+        padding: 15px 0;
+        position: relative;
+        z-index: 100;
+        float: left;
     }
     .name{
         font-size: 18px;
     }
-    .video-content, .header, .resp, .partner, .new1, .proj .container, .state, .form-box{
+    .video-content, .header, .resp, .partner, .new1, .proj .container, .state, .form-box, .header{
         width: 750px;
         padding-left: 0;
         padding-right: 0;
@@ -112,7 +129,10 @@
     }
 }
 @media (min-width: 992px) {
-.header, .video-content, .resp, .partner, .new1, .proj .container, .state, .form-box{
+ header{
+     min-height: 110px;
+ }
+.header, .video-content, .resp, .partner, .new1, .proj .container, .state, .form-box, .header{
     width: 970px;
 }
 .video-text{
@@ -164,7 +184,7 @@
 }
 }
 @media (min-width: 1200px){
-.header, .video-content, .resp, .partner, .new1, .proj .container, .state, .form-box{
+.header, .video-content, .resp, .partner, .new1, .proj .container, .state, .form-box, .header{
     width: 1170px;
 }
 .sh-title{
@@ -194,6 +214,7 @@
     }
     header{
         width:100%;
+        background-color: #f8f8f8;
         border-color: #e7e7e7;
     }
     .header-box{
@@ -272,7 +293,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .video-content,.header, .resp, .partner, .new1, .proj, .container, .state, .form-box{
+    .video-content,.header, .resp, .partner, .new1, .proj, .container, .state, .form-box, .header{
         margin-right: auto;
         margin-left: auto;
         padding-left: 15px;
@@ -523,6 +544,12 @@
         position: relative;
         margin-bottom: 0;
     }
+    .arch-title{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
     .arch{
         margin:0 -10px;
     }
@@ -596,8 +623,11 @@
     .proj-title h2{
         margin-bottom: 0;
     }
+    .f-title{
+        margin: 100px 0 40px;
+    }
     .new-title{
-        margin-bottom:40px !important;
+        margin-bottom:60px !important;
     }
     .st-link a, .respLink a, .respLink1 a, .parts-link a, .pr-link a, .f-link a, .arch-link a{
         padding-left:10px;
