@@ -319,6 +319,7 @@
         right: 0;
         z-index: 9998;
         position: block;
+        height: 62px;
     }
     .nav{
         text-align: center;
@@ -336,6 +337,11 @@
         background-color: transparent;
         position: relative;
         display: block;
+    }
+    .drop{
+        text-align: center;
+        vertical-align: middle;
+        border-right: 1px solid #E5E5E5;
     }
     .search-box{
         top: 0;
