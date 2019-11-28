@@ -271,6 +271,9 @@
 }
     html{
     -webkit-tap-highlight-color: transparent;
+    } 
+    .header-title,.number a,.site a,i, .resp-link, a:link, a{
+        color: #24aa17;
     }
     body{
         font-family: 'Open Sans',sans-serif;
@@ -338,11 +341,6 @@
         position: relative;
         display: block;
     }
-    .drop{
-        text-align: center;
-        vertical-align: middle;
-        border-right: 1px solid #E5E5E5;
-    }
     .search-box{
         top: 0;
         left: 0;
@@ -360,7 +358,7 @@
         text-align: center;
         line-height: 60px;
     }
-    ul{
+    .ul{
         padding-left: 40px;
         display: block;
         list-style-type: disc;
@@ -370,7 +368,7 @@
         margin-inline-end: 0px;
         padding-inline-start: 40px;
     }
-    ul, ol{
+    .ul{
         padding-left: 1.5em;
         margin-top: 0;
         margin-bottom: 10px;
@@ -378,9 +376,6 @@
     .header-menu{
         padding-left: 15px;
         padding-right: 15px;
-    }
-    .header-title,.number a,.site a,i, .resp-link, a:link, a{
-        color: #24aa17;
     }
     .bttn{
         display: inline-block;
@@ -788,6 +783,11 @@
     }
     .soc .youtube{
         content: '\f16a';
+    }
+    .drop{
+        text-align: center;
+        vertical-align: middle;
+        border-right: 1px solid #E5E5E5;
     }
      h1{
         color:#fff;
