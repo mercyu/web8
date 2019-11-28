@@ -110,8 +110,17 @@
         margin: 0;
     }
     .nav-item{
-        padding: 0 15px;
         line-height: 60px;
+        border-right: 1px solid #E5E5E5;
+        text-transform: uppercase;
+        color: #000000;
+        padding: 0 30px 0 60px;
+        font-size: 12px;
+        background-color: transparent;
+        margin: 0;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
     }
     #dropmenu1{
         position: absolute;
@@ -203,6 +212,9 @@
 .nav-item{
     padding: 0 20px;
 }
+.search{
+    width: 80px;
+}
 .header, .video-content, .resp, .partner, .new1, .proj .container, .state, .form-box, .header, .foot{
     width: 970px;
 }
@@ -260,6 +272,9 @@
 }
 .nav-item{
     padding: 0 30px;
+}
+.search{
+    width: 97px;
 }
 .sh-title{
     font-size: 22px;
@@ -398,11 +413,10 @@
         margin-inline-start: 0px;
         margin-inline-end: 0px;
         padding-inline-start: 40px;
-    }
-    .ul{
         padding-left: 1.5em;
         margin-top: 0;
         margin-bottom: 0;
+        text-align: center;
     }
     .header-menu{
         padding-left: 15px;
