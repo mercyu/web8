@@ -321,7 +321,7 @@
         left: 0;
         right: 0;
         z-index: 9998;
-        position: relative;
+        position: block;
     }
     .nav{
         margin-bottom: 0;

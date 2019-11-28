@@ -839,5 +839,13 @@
     <!--Bootstrap JS, then my slick jQuery, then my JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript" src="SlickJQuery.js" defer></script>
+<script>
+ document.addEventListener('click', function(event) {
+    let id = event.target.dataset.toggleId;
+    if (!id) return;
+    let elem = document.getElementById(id);
+    elem.hidden = !elem.hidden;
+  });
+</script>
 </body>
 </html>
