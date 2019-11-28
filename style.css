@@ -350,7 +350,7 @@
         cursor: pointer;
         clip: auto;
     }
-    i.fa-search{
+    .fa-search{
         content: '\e003';
         font-family: 'Glyphicons Halflings';
         display: block;
