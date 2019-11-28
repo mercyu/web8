@@ -22,11 +22,10 @@
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
     .search{
-        position: relative;
+        position: block;
         top: 2px;
         right: 20px;
         min-height: 60px;
-        z-index: 99999;
         border-right: 0;
     }
     #logo{
@@ -96,16 +95,14 @@
         border-bottom: 1px solid #E5E5E5;
         min-height: 60px;
         top: 0;
-        position: sticky;
+        position: block;
     }
     .navigation{
-      
         display: block !important;
         height: auto !important;
         padding-bottom: 0;
         overflow: visible !important;
         border-top: 0;
-        box-shadow: none;
     }
     .nav{
         width: auto;
@@ -349,11 +346,8 @@
         background-color: transparent;
         transition: all 0.3s;
         cursor: pointer;
-        clip: auto;
     }
     .fa-search{
-        content: '\e003';
-        font-family: 'Glyphicons Halflings';
         display: block;
         font-size: 16px;
         color: #24aa17;
@@ -600,21 +594,6 @@
         max-width: 100%;
         height: auto;
         vertical-align: middle;
-    }
-    .slick-next:before, .slick-prev:before{
-        width: 40px;
-        height: 40px;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 70%;
-        color: #fff;
-        background: #1a7d11;
-        transition: all 0.3s ease-in;
-        cursor: pointer;
-    }
-    .slick-next:before:hover, .slick-prev:before:hover{
-        background: #fff;
-        color: #1a7d11;
     }
     .links a{
         text-decoration: underline;
