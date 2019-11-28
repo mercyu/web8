@@ -113,7 +113,7 @@
         padding: 0 15px;
         line-height: 60px;
     }
-    .dropmenu1{
+    #dropmenu1{
         position: absolute;
         border: 1px solid #E5E5E5;
         float: left;
@@ -123,6 +123,7 @@
         border-right: 1px solid #E5E5E5;
         position: relative;
         height: 60px;
+        width: auto;
         top: auto;
         right: auto;
     }
@@ -347,6 +348,9 @@
         position: relative;
         display: block;
     }
+    .drop{
+        padding-right: 20px;
+    }
     #dropmenu1{
         top: 100%;
         left: 0;
@@ -364,6 +368,9 @@
         border: 1px solid rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    }
+    .search{
+        max-width: 97px;
     }
     .search-box{
         top: 0;
@@ -395,7 +402,7 @@
     .ul{
         padding-left: 1.5em;
         margin-top: 0;
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
     .header-menu{
         padding-left: 15px;
