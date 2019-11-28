@@ -113,7 +113,7 @@
         padding: 0 15px;
         line-height: 60px;
     }
-    .dpordownmenu1{
+    .dropmenu1{
         position: absolute;
         border: 1px solid #E5E5E5;
         float: left;
@@ -347,7 +347,7 @@
         position: relative;
         display: block;
     }
-    #dropdownmenu1{
+    #dropmenu1{
         top: 100%;
         left: 0;
         z-index: 1000;
