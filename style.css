@@ -397,6 +397,12 @@
         border-radius: 4px;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);*/
     }
+    #dropmenu2{
+        position: absolute;
+        top: 70px;
+        z-index: 1;
+        background-color: white;
+    }
     .search{
         max-width: 97px;
         text-align: center;
@@ -839,6 +845,7 @@
         font-size: 13px;
         padding-left:30px;
         vertical-align: middle;
+        padding-top: 20px;
     }
     .nav-item a{
          color: #000000;
