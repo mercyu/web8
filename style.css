@@ -19,6 +19,9 @@
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
+    .nav-name{
+        flex-wrap: wrap;
+    }
     .search{
         position: block;
         top: 2px;
@@ -106,6 +109,9 @@
         width: auto;
         float: left;
         margin: 0;
+    }
+    .nav-name{
+        flex-wrap: nowrap;
     }
     .nav-item{
         line-height: 60px;
@@ -826,9 +832,14 @@
     .nav-item{
         font-size: 13px;
         padding-left:30px;
+        vertical-align: middle;
     }
     .nav-item a{
          color: #000000;
+    }
+    .nav-item:hover{
+        background-color: #e7e7e7;
+        text-decoration: none;
     }
     .drop{
         text-align: center;
@@ -857,12 +868,4 @@
     .st-link a, .respLink a, .respLink1 a, .parts-link a, .pr-link a, .f-link a, .arch-link a{
         padding-left:10px;
     }
-   .product {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        border-radius: 5px;
-        background-color: rgb(169, 230, 230);
-    }
-    .product:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    }
+   
