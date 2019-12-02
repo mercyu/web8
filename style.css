@@ -75,7 +75,7 @@
         padding-top: 20px;
     }
     .arch-card{
-        height: 350px;
+        height: 360px;
         padding: 25px 20px;
     }
     .company{
@@ -796,10 +796,11 @@
         padding: 0;
     }
     .soc{
-        max-width: 140px;
+        max-width: 110px;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-around;
+        padding-left: 10px;
     }
     .soc .fa{
         display: inline-block;
