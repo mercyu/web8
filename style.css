@@ -74,7 +74,7 @@
         padding-top: 20px;
     }
     .arch-card{
-        height: 340px;
+        height: 350px;
         padding: 25px 20px;
     }
     .company{
@@ -795,14 +795,11 @@
         padding: 0;
     }
     .soc .fa{
-        width: 28px;
-        height: 28px;
         display: inline-block;
-        margin-right: 7px;
-        background-color: #d4d5d7;
-        border-radius: 5px;
-        text-decoration: none;
-        text-align: center;
+        font: normal normal normal 14px/1 FontAwesome;
+        color: rgb(160, 158, 158);
+        margin: 5px 5px 0 0;
+        font-size: 1.5em;
     }
     .nav-item{
         font-size: 13px;
@@ -825,10 +822,11 @@
         padding-top: 0;
     }
     .h-bars{
-        margin:8px 15px 8px 0px;
+        margin:0 15px 8px 8px;
         padding: 5px;
         border-right: none;
         background: transparent;
+        border:none;
     }
     .h-search{
         padding-top: 10px;

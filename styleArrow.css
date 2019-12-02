@@ -35,7 +35,7 @@
 
     cursor: pointer;
 
-    color: green;
+    color: green !important;
     border: none;
     outline: none;
     background: white;
