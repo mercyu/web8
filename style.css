@@ -14,12 +14,8 @@
         padding: 10px 0;
         float: none;
     }
-    /*.header{
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }*/
     .header-title{
-        max-width: 310px;
+        max-width: 270px;
     }
     .navigation{
         overflow-x: visible;
@@ -387,22 +383,6 @@
         top: 62px;
         z-index: 1;
         background-color: white;
-       /* top: 100%;
-        left: 0;
-        z-index: 1000;
-        display: none;
-        float: left;
-        min-width: 160px;
-        padding: 5px 0;
-        margin: 2px 0 0;
-        list-style: none;
-        font-size: 14px;
-        text-align: left;
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border: 1px solid rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);*/
     }
     #dropmenu2{
         position: absolute;
@@ -422,21 +402,6 @@
         text-align: center;
         line-height: 60px;
     }
-    /*.ul{
-        border-right: 1px solid #E5E5E5;
-        padding-left: 40px;
-        display: block;
-        list-style-type: disc;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 40px;
-        padding-left: 1.5em;
-        margin-top: 10px;
-        margin-bottom: 0;
-        text-align: center;
-    }*/
     .header-menu{
         padding-left: 15px;
         padding-right: 15px;
@@ -839,15 +804,6 @@
         text-decoration: none;
         text-align: center;
     }
-    .soc .insta{
-        content: '\f16d';
-    }
-    .soc .vk{
-        content: '\f189';
-    }
-    .soc .youtube{
-        content: '\f16a';
-    }
     .nav-item{
         font-size: 13px;
         padding-left:30px;
@@ -872,6 +828,7 @@
         margin:8px 15px 8px 0px;
         padding: 5px;
         border-right: none;
+        background: transparent;
     }
     .h-search{
         padding-top: 10px;
