@@ -56,7 +56,7 @@
          </div>
        </div>
        <div class="button d-none d-sm-inline-block col-sm-4 col-md-3 col-lg-2">
-         <input type="button" value="заказать звонок" id="show" class="bttn">
+         <input type="button" value="заказать звонок" onclick="Back()" id="show" class="bttn">
        </div> 
        
        <div class="search d-block d-md-none h-search">
@@ -77,13 +77,12 @@
       </div>
      </header>
 
-<div class="modal" hidden>
-  <i class="fa fa-times fa-2x" aria-hidden="true"></i>
-  <form id="form">
-    <input name="fio" type="text" class="" placeholder="" required>
-    <input name="tel" type="tel" class="" pattern="+7[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="" required>
-    <select name="" class="" label="Регион" size="10" required>
-        <select name="region" class="selection"> 
+<div id="modal" class="modal" hidden>
+  <i id="close" class="fa fa-times fa-2x float-right clearfix" aria-hidden="true"></i>
+  <form id="form" action="https://formcarry.com/s/QST5kGOlwRj" method="POST" accept-charset="UTF-8">
+    <input name="fio" type="text" class="field inputbox" placeholder="ФИО" required>
+    <input name="tel" type="tel" class="field inputbox" pattern="+7[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Телефон" required>
+    <select name="region" class="field" label="Регион" size="10" required>
             <option value="1">Республика Адыгея</option>
             <option value="2">Республика Башкортостан</option>
             <option value="3">Республика Бурятия</option>
@@ -167,13 +166,8 @@
             <option value="81">Ямало-Ненецкий автономный округ</option>
             <option value="82">Республика Крым</option>
       </select>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
-    <textarea class=""  rows="3"></textarea>
-    <button type="submit" class="btn">Sign in</button>
+    <textarea class="field inputbox" rows="4" placeholder="Сообщение"></textarea>
+    <button type="submit" class="btn mod">отправить</button>
   </form>
 </div>
 
@@ -962,5 +956,15 @@
     elem.hidden = !elem.hidden;
   });
 </script>
+<script>
+function Back() {
+  $("#modal").show();
+history.pushState(null, null, 'https://mercyu.github.io/web8');
+}
+addEventListener("popstate",function(e){
+$("#modal").hide();
+},false);
+</script>
+<script type="text/javascript" src="formJs.js"></script>
 </body>
 </html>
