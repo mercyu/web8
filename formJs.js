@@ -27,7 +27,7 @@ document.addEventListener('click', function(event) {
 })
  
 $(document).ready(function() { // после загрузки страницы
-  $('.show').on('click', function(e){      
+  $('#show').on('click', function(e){      
     // отменяем стандартное действие при клике
     e.preventDefault();
  //  function Back() {
