@@ -53,7 +53,7 @@ $(document).ready(function() { // после загрузки страницы
 		return false; // отключаем стандартную отправку формы
 	});
 });
-
+/*
 document.addEventListener("DOMContentLoaded", function() { // событие загрузки страницы
 	history.pushState(null, null, 'https://mercyu.github.io/web8');
     // выбираем на странице все элементы типа textarea и input
@@ -67,4 +67,4 @@ document.addEventListener("DOMContentLoaded", function() { // событие з�
             window.sessionStorage.setItem(e.name, e.value);
         })
     })
-	    });
+	    });*/

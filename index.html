@@ -56,7 +56,7 @@
          </div>
        </div>
        <div class="button d-none d-sm-inline-block col-sm-4 col-md-3 col-lg-2">
-         <button  id="show" class="bttn open">заказать звонок</button><!--onclick="Next()"-->
+         <a href="" id="show" onclick="Next()" class="bttn open">заказать звонок</a><!---->
        </div> 
        
        <div class="search d-block d-md-none h-search">
@@ -958,7 +958,7 @@
   });
 </script>
 <script defer>
-  document.addEventListener('click', function(event) {
+  /*document.addEventListener('click', function(event) {
  
  let el=event.target;
  let elem=document.getElementById("fade");
@@ -979,19 +979,17 @@
    document.body.style.overflowY = '';
  }
  });
-/*addEventListener("popstate",function(e){
-
+function Back() {
+  $("#fade").hide();
+ }*/
   	 function Next() {
         $("#fade").show();
 	history.pushState(null, null, 'https://mercyu.github.io/web8');
     }
-
+addEventListener("popstate",function(e){
       $("#fade").hide();
 },false);
    
- function Back() {
-  $("#fade").hide();
- }*/
 </script>
 <script type="text/javascript" src="formJs.js" defer></script>
 </body>
