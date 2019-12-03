@@ -958,17 +958,40 @@
   });
 </script>
 <script defer>
+  document.addEventListener('click', function(event) {
+ 
+ let el=event.target;
+ let elem=document.getElementById("fade");
+ if(el.getElementById("show")){
+// Показать полупрозрачный DIV, чтобы затенить страницу
+ // (форма располагается не внутри него, а рядом, потому что она не должна быть полупрозрачной)
+   let coverDiv = document.createElement('div');
+   coverDiv.id = 'cover-div';
+   // убираем возможность прокрутки страницы во время показа модального окна с формой
+   document.body.style.overflowY = 'hidden';
+   document.body.append(coverDiv);
+ 
+ elem.hidden=false;
+ }
+ if(el.getElementById("close")){
+   elem.hidden=true;
+   document.getElementById('cover-div').remove();
+   document.body.style.overflowY = '';
+ }
+ });
+/*addEventListener("popstate",function(e){
+
   	 function Next() {
         $("#fade").show();
 	history.pushState(null, null, 'https://mercyu.github.io/web8');
     }
-addEventListener("popstate",function(e){
+
       $("#fade").hide();
 },false);
    
  function Back() {
   $("#fade").hide();
- }
+ }*/
 </script>
 <script type="text/javascript" src="formJs.js" defer></script>
 </body>
