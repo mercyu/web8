@@ -102,4 +102,4 @@ document.addEventListener("DOMContentLoaded", function() { // событие з�
             window.sessionStorage.setItem(e.name, e.value);
         })
     })
-	    }); 
+	    });}) 
