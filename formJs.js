@@ -26,42 +26,6 @@
     }
 })*/
  
-
-$(document).ready(function() { // после загрузки страницы
-$('.open').click(function() {
-  $('.fade').fadeIn();
-  return false;
-});	
-
-$('.close').click(function() {
-  $(this).parents('.fade').fadeOut();
-  return false;
-});		
-
-$(document).keydown(function(e) {
-  if (e.keyCode === 27) {
-    e.stopPropagation();
-    $('.fade').fadeOut();
-  }
-});
-
-$('.fade').click(function(e) {
-  if ($(e.target).closest('.modal').length == 0) {
-    $(this).fadeOut();
-  }
-});
-});
- /* $('#show').on('click', function(e){
-    // отменяем стандартное действие при клике
-    e.preventDefault();
- //  function Back() {
-    $("#modal").show();
-  history.pushState(null, null, 'https://mercyu.github.io/web8');
-  //});
-},false);
-window.addEventListener("popstate",function(e){
-  $("#modal").hide();
-*/
 $(document).ready(function() { // после загрузки страницы
   $("#form").submit(function(e){ // перехватываем все при событии отправки
     e.preventDefault();
