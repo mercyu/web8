@@ -47,11 +47,11 @@ $(document).keydown(function(e) {
 
 $('.fade').click(function(e) {
   if ($(e.target).closest('.modal').length == 0) {
-    $(this).fadeOut();					
+    $(this).fadeOut();
   }
 });
 
-  $('#show').on('click', function(e){
+ /* $('#show').on('click', function(e){
     // отменяем стандартное действие при клике
     e.preventDefault();
  //  function Back() {
@@ -61,7 +61,7 @@ $('.fade').click(function(e) {
 },false);
 window.addEventListener("popstate",function(e){
   $("#modal").hide();
-
+*/
   $("#form").submit(function(e){ // перехватываем все при событии отправки
     e.preventDefault();
 		let form = $(this); // запишем форму, чтобы потом не было проблем с this
@@ -102,4 +102,4 @@ document.addEventListener("DOMContentLoaded", function() { // событие з�
             window.sessionStorage.setItem(e.name, e.value);
         })
     })
-	    });}) 
+	    });
