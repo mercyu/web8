@@ -844,7 +844,7 @@
     }
     .fade{
         content: '';
-	    background: #000;
+	    background: rgba(0,0,0,0.5);
 	    position: fixed; 
 	    left: 0;
 	    top: 0;
@@ -857,7 +857,7 @@
         position: fixed;
         top: 20%;
 	    left: 50%;
-        margin-left:-200px;
+        margin:0 auto;
         background: #fff;
         height: 300px;
         width: 580px;
