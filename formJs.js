@@ -1,4 +1,5 @@
 document.addEventListener('click', function(event) {
+ 
     let el=event.target;
     let elem=document.getElementById("modal");
     if(el.getElementById("show")){
@@ -26,6 +27,17 @@ document.addEventListener('click', function(event) {
 })
  
 $(document).ready(function() { // после загрузки страницы
+  $('.show').on('click', function(e){      
+    // отменяем стандартное действие при клике
+    e.preventDefault();
+ //  function Back() {
+    $("#modal").show();
+  history.pushState(null, null, 'https://mercyu.github.io/web8');
+  //});
+},false);
+window.addEventListener("popstate",function(e){
+  $("#modal").hide();
+
   $("#form").submit(function(e){ // перехватываем все при событии отправки
     e.preventDefault();
 		let form = $(this); // запишем форму, чтобы потом не было проблем с this

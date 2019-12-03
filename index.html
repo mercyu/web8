@@ -56,7 +56,7 @@
          </div>
        </div>
        <div class="button d-none d-sm-inline-block col-sm-4 col-md-3 col-lg-2">
-         <input type="button" value="заказать звонок" onclick="Back()" id="show" class="bttn">
+         <input type="button" value="заказать звонок" id="show" class="bttn">
        </div> 
        
        <div class="search d-block d-md-none h-search">
@@ -955,15 +955,6 @@
     let elem = document.getElementById(id);
     elem.hidden = !elem.hidden;
   });
-</script>
-<script>
-function Back() {
-  $("#modal").show();
-history.pushState(null, null, 'https://mercyu.github.io/web8');
-}
-addEventListener("popstate",function(e){
-$("#modal").hide();
-},false);
 </script>
 <script type="text/javascript" src="formJs.js"></script>
 </body>
