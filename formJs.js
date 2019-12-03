@@ -1,4 +1,4 @@
-document.addEventListener('click', function(event) {
+/*document.addEventListener('click', function(event) {
  
     let el=event.target;
     let elem=document.getElementById("modal");
@@ -24,10 +24,34 @@ document.addEventListener('click', function(event) {
     }
     hideCover();
     }
-})
+})*/
  
+
 $(document).ready(function() { // после загрузки страницы
-  $('#show').on('click', function(e){      
+$('.open').click(function() {
+  $('.fade').fadeIn();
+  return false;
+});	
+
+$('.close').click(function() {
+  $(this).parents('.fade').fadeOut();
+  return false;
+});		
+
+$(document).keydown(function(e) {
+  if (e.keyCode === 27) {
+    e.stopPropagation();
+    $('.fade').fadeOut();
+  }
+});
+
+$('.fade').click(function(e) {
+  if ($(e.target).closest('.modal').length == 0) {
+    $(this).fadeOut();					
+  }
+});
+
+  $('#show').on('click', function(e){
     // отменяем стандартное действие при клике
     e.preventDefault();
  //  function Back() {

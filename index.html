@@ -56,7 +56,7 @@
          </div>
        </div>
        <div class="button d-none d-sm-inline-block col-sm-4 col-md-3 col-lg-2">
-         <input type="button" value="заказать звонок" id="show" class="bttn">
+         <input type="button" value="заказать звонок" id="show" class="bttn open">
        </div> 
        
        <div class="search d-block d-md-none h-search">
@@ -76,9 +76,9 @@
         </div>
       </div>
      </header>
-
+<div class="fade">
 <div id="modal" class="modal" hidden>
-  <i id="close" class="fa fa-times fa-2x float-right clearfix" aria-hidden="true"></i>
+  <i id="close" class="fa fa-times fa-2x close" aria-hidden="true"></i>
   <form id="form" action="https://formcarry.com/s/QST5kGOlwRj" method="POST" accept-charset="UTF-8">
     <input name="fio" type="text" class="field inputbox" placeholder="ФИО" required>
     <input name="tel" type="tel" class="field inputbox" pattern="+7[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Телефон" required>
@@ -169,6 +169,7 @@
     <textarea class="field inputbox" rows="4" placeholder="Сообщение"></textarea>
     <button type="submit" class="btn mod">отправить</button>
   </form>
+</div>
 </div>
 
   <div id="navbar" class="d-none d-md-inline-block">
@@ -948,6 +949,7 @@
     <!--Bootstrap JS, then my slick jQuery, then my JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript" src="SlickJQuery.js" defer></script>
+<script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
 <script>
  document.addEventListener('click', function(event) {
     let id = event.target.dataset.toggleId;
