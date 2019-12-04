@@ -854,7 +854,7 @@
 	    z-index: 9999;
     }
     .modal{
-        position: fixed;
+        position: absolute;
         top: 20%;
 	    left: 50%;
         margin:0 auto;

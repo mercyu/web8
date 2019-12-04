@@ -76,7 +76,7 @@
         </div>
       </div>
      </header>
-<div id="fade" class="fade" hidden>
+<div id="fade" class="fade" style="">
 <div id="modal" class="modal">
   <i id="close" class="fa fa-times fa-2x close" onclick="Back()" aria-hidden="true"></i>
   <form id="form" action="https://formcarry.com/s/QST5kGOlwRj" method="POST" accept-charset="UTF-8">
@@ -957,8 +957,8 @@
     elem.hidden = !elem.hidden;
   });
 </script>
-<script defer>
-  /*document.addEventListener('click', function(event) {
+
+  <!--document.addEventListener('click', function(event) {
  
  let el=event.target;
  let elem=document.getElementById("fade");
@@ -981,16 +981,16 @@
  });
 function Back() {
   $("#fade").hide();
- }*/
+ }-->
+ <script >
   	 function Next() {
         $("#fade").show();
 	history.pushState(null, null, 'https://mercyu.github.io/web8');
     }
 addEventListener("popstate",function(e){
       $("#fade").hide();
-},false);
-   
+      },false);
 </script>
-<script type="text/javascript" src="formJs.js" defer></script>
+<script type="text/javascript" src="formJs.js" ></script>
 </body>
 </html>
