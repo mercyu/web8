@@ -842,6 +842,9 @@
         text-align: start;
         padding-top: 0;
     }
+    .fffffff{
+        display: block;
+    }
     .ffff{
         display: block;
         content: '';
@@ -853,7 +856,6 @@
 	    height: 100%;
         z-index: 9999;
         overflow: auto;
-        -webkit-transform: translate(0,0);
     }
     .modal{
         display: block;
