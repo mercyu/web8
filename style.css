@@ -843,6 +843,7 @@
         padding-top: 0;
     }
     .ffff{
+        display: block;
         content: '';
 	    background: rgba(0,0,0,0.5);
 	    position: fixed; 
@@ -853,6 +854,7 @@
 	    z-index: 9999;
     }
     .modal{
+        display: block;
         position: absolute;
         top: 20%;
 	    left: 50%;
