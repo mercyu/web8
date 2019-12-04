@@ -56,7 +56,7 @@
          </div>
        </div>
        <div class="button d-none d-sm-inline-block col-sm-4 col-md-3 col-lg-2">
-         <a href="" id="show"  class="bttn open">заказать звонок</a><!--onclick="Next()"-->
+         <a href="#bbbb" id="show"  class="bttn open">заказать звонок</a><!--onclick="Next()"-->
        </div> 
        
        <div class="search d-block d-md-none h-search">
@@ -76,10 +76,10 @@
         </div>
       </div>
      </header>
-     <div id="bbbb" class="bbbb" style="display: none;">
-<div id="ffff" class="ffff" >
+     <!--<div id="bbbb" class="bbbb" style="display: none;">-->
+
 <div id="modal" class="modal">
-  <i id="close" class="fa fa-times fa-2x close" aria-hidden="true"></i><!--onclick="Back()"-->
+  <i id="close" class="fa fa-times fa-2x " aria-hidden="true"></i><!--onclick="Back()"-->
   <form id="form" action="https://formcarry.com/s/QST5kGOlwRj" method="POST" accept-charset="UTF-8">
     <input name="fio" type="text" class="field inputbox" placeholder="ФИО" required>
     <input name="tel" type="tel" class="field inputbox" pattern="+7([0-9]{3})-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Телефон" required>
@@ -172,8 +172,9 @@
     <button type="submit" class="bttn mod">отправить</button>
   </form>
 </div>
-</div>
-</div>
+<!--</div>-->
+
+<div id="ffff" class="ffff" ></div>
 
   <div id="navbar" class="d-none d-md-inline-block">
    <div class="container">
@@ -984,7 +985,7 @@
  });-->
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
-$('document').ready(function () {
+/*$('document').ready(function () {
        $("#show").click(function () {
            $("#bbbb").css("display", "block");
            //$("#window").css("display", "block")
@@ -996,20 +997,44 @@ $('document').ready(function () {
         addEventListener("popstate",function(e){
       $("#bbbb").css("display", "none");
       },false);
-   });
+   });*/
+   $(document).ready(function() {
+ 
+ $('#show').click( function(event){
+     event.preventDefault();
+     $('#ffff').fadeIn(400, // анимируем показ обложки
+         function(){ // далее показываем мод. окно
+             $('#modal') 
+                 .css('display', 'block')
+                 .animate({opacity: 1, top: '50%'}, 200);
+     });
+ });
 
+ // закрытие модального окна
+ $('#close, #ffff').click( function(){
+     $('#modal')
+         .animate({opacity: 0, top: '45%'}, 200,  // уменьшаем прозрачность
+             function(){ // пoсле aнимaции
+                 $(this).css('display', 'none'); // скрываем окно
+                 $('#ffff').fadeOut(400); // скрывaем пoдлoжку
+             }
+         );
+ });
+
+});
 </script>
  <script > 
- /*   function Back() {
-  $("#bbbb").hide();
- }
+ /*  
   	 function Next() {
         $("#bbbb").show();
 	history.pushState(null, null, 'https://mercyu.github.io/web8');
     }
 addEventListener("popstate",function(e){
       $("#bbbb").hide();
-      },false);
+      },false); 
+      function Back() {
+  $("#bbbb").hide();
+ }
 */
  </script>
 <script type="text/javascript" src="formJs.js" ></script>
