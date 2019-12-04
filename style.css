@@ -853,6 +853,7 @@
 	    height: 100%;
         z-index: 9999;
         overflow: auto;
+        -webkit-transform: translate(0,0);
     }
     .modal{
         display: block;
@@ -879,6 +880,7 @@
         text-align: start;
         vertical-align: middle;
         height: 40px;
+        width: 100%;
         padding-left: 5px;
         margin-bottom: 15px;
     }
