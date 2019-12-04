@@ -853,21 +853,19 @@
 	    height: 100%;
         z-index: 9999;
         overflow: auto;
-        
     }
     .modal{
         display: block;
         position: fixed;
         transform: translate(-50%,-50%);
-        top: 20%;
+        top: 50%;
 	    left: 50%;
         margin:0 auto;
         padding: 35px 20px 20px;
         background-color:rgb(254, 254, 254);
         height: 325px;
-        width: 580px;
+        width: 600px;
         z-index: 99999;
-	    opacity: 1;	
     }
     .close{
         position: absolute;
