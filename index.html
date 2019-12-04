@@ -982,10 +982,7 @@
    document.body.style.overflowY = '';
  }
  });-->
-<script> function Back() {
-  $("#bbbb").hide();
- }
- </script>
+
  <script >
   	 function Next() {
         $("#bbbb").show();
@@ -994,7 +991,10 @@
 addEventListener("popstate",function(e){
       $("#bbbb").hide();
       },false);
-</script>
+      function Back() {
+  $("#bbbb").hide();
+ }
+ </script>
 <script type="text/javascript" src="formJs.js" ></script>
 </body>
 </html>
