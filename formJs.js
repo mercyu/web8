@@ -26,7 +26,7 @@
     }
 })*/
  
-$(document).ready(function() { // после загрузки страницы
+$('document').ready(function() { // после загрузки страницы
   $("#form").submit(function(e){ // перехватываем все при событии отправки
     e.preventDefault();
 		let form = $(this); // запишем форму, чтобы потом не было проблем с this
