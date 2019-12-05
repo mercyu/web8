@@ -31,8 +31,9 @@ $('document').ready(function() { // после загрузки страницы
 		return false; // отключаем стандартную отправку формы
 	});
 });
+	/*
 document.addEventListener("DOMContentLoaded", function() { // событие загрузки страницы
-	history.pushState(null, null, 'https://mercyu.github.io/web8');
+	history.pushState(null, null, 'https://sharedmean.github.io/televisions2');
     // выбираем на странице все элементы типа textarea и input
     document.querySelectorAll('textarea, input').forEach(function(e) {
         // если данные значения уже записаны в sessionStorage, то вставляем их в поля формы
@@ -44,4 +45,4 @@ document.addEventListener("DOMContentLoaded", function() { // событие з�
             window.sessionStorage.setItem(e.name, e.value);
         })
     })
-	    });
+	    }); */
