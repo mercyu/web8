@@ -2,7 +2,7 @@ document.addEventListener('click', function(event) {
     let el=event.target;
     let elem=document.getElementById("modal");
     let coverDiv = document.getElementById('ffff');
-    if(el.getElementById("show")){
+    if(el.classList.contains('show') == true){
  // Показать полупрозрачный DIV, чтобы затенить страницу
     // (форма располагается не внутри него, а рядом, потому что она не должна быть полупрозрачной)
   	history.pushState(null, null, 'https://mercyu.github.io/web8');
@@ -12,7 +12,7 @@ document.addEventListener('click', function(event) {
       coverDiv.style.display="block";
       elem.style.display="block";
     }
-    if(el.getElementById("close")){
+    if(el.classList.contains('close') == true){
       elem.style.display="none";
       coverDiv.style.display="none";
       document.body.style.overflowY = '';
