@@ -1,4 +1,4 @@
-document.addEventListener('click', function(event) {
+/*document.addEventListener('click', function(event) {
     let el=event.target;
     let elem=document.getElementById("modal");
     let coverDiv = document.getElementById('ffff');
@@ -21,7 +21,7 @@ document.addEventListener('click', function(event) {
       elem.style.display="none";
       coverDiv.style.display="none";
       },false); 
-})
+})*/
  
 $('document').ready(function() { // после загрузки страницы
   $("#form").submit(function(e){ // перехватываем все при событии отправки

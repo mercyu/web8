@@ -58,7 +58,7 @@
          </div>
        </div>
        <div class="button d-none d-sm-inline-block col-sm-4 col-md-3 col-lg-2">
-         <div id="show" class="bttn open">заказать звонок</div><!--onclick="Next()"-->
+         <button id="show" class="bttn open">заказать звонок</button><!--onclick="Next()"-->
        </div> 
        
        <div class="search d-block d-md-none h-search">
@@ -1027,6 +1027,33 @@
 });*/
 </script>
  <script > 
+ window.addEventListener('DOMContentLoaded', function (event) {
+   let elem=document.getElementById("modal");
+    let coverDiv = document.getElementById('ffff');
+    let cl=document.getElementById('close');
+    let sh=document.getElementById('show');
+  sh.addEventListener('click', function(event) {
+    //let el=event.target;
+ // Показать полупрозрачный DIV, чтобы затенить страницу
+    // (форма располагается не внутри него, а рядом, потому что она не должна быть полупрозрачной)
+  	history.pushState(null, null, 'https://mercyu.github.io/web8');
+      
+      // убираем возможность прокрутки страницы во время показа модального окна с формой
+      document.body.style.overflowY = 'hidden';
+      coverDiv.style.display="block";
+      elem.style.display="block";
+    });
+    cl.addEventListener('click', function(event) {
+      elem.style.display="none";
+      coverDiv.style.display="none";
+      document.body.style.overflowY = '';
+    
+}) 
+addEventListener("popstate",function(e){
+      elem.style.display="none";
+      coverDiv.style.display="none";
+      },false);
+ });
  /*  
   	 function Next() {
         $("#bbbb").show();
