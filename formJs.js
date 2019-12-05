@@ -1,28 +1,3 @@
-/*document.addEventListener('click', function(event) {
-    let el=event.target;
-    let elem=document.getElementById("modal");
-    let coverDiv = document.getElementById('ffff');
-    if(el.classList.contains('show')){
- // Показать полупрозрачный DIV, чтобы затенить страницу
-    // (форма располагается не внутри него, а рядом, потому что она не должна быть полупрозрачной)
-  	history.pushState(null, null, 'https://mercyu.github.io/web8');
-      
-      // убираем возможность прокрутки страницы во время показа модального окна с формой
-      document.body.style.overflowY = 'hidden';
-      coverDiv.style.display="block";
-      elem.style.display="block";
-    }
-    if(el.classList.contains('close')){
-      elem.style.display="none";
-      coverDiv.style.display="none";
-      document.body.style.overflowY = '';
-    }
-    addEventListener("popstate",function(e){
-      elem.style.display="none";
-      coverDiv.style.display="none";
-      },false); 
-})*/
- 
 $('document').ready(function() { // после загрузки страницы
   $("#form").submit(function(e){ // перехватываем все при событии отправки
     e.preventDefault();

@@ -863,7 +863,7 @@
         top: 50%;
 	    left: 50%;
         margin:0 auto;
-        padding: 25px 30px 30px;
+        padding: 40px 30px 30px;
         background-color:rgb(254, 254, 254);
         height: 325px;
         width: 600px;
@@ -877,7 +877,7 @@
     .field{
         color: #68676c;
         font-size: 14px;
-        background-color: rgba(175, 167, 167, 0.5);
+        background-color: rgba(224, 219, 219, 0.2);
         text-align: start;
         vertical-align: middle;
         height: 40px;
@@ -886,10 +886,14 @@
         margin-bottom: 15px;
     }
     .mod{
-        padding-left: 50%;
-        margin: -30px auto 20px auto;
+        margin-left: 45%;
+        margin-top: -30px;
         text-align: center;
         width: auto;
+    }
+    .mes{
+        margin-top:30px;
+        height:120px;
     }
     h1{
         color:#fff;
