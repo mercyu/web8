@@ -860,13 +860,13 @@
         display: none;
         position: fixed;
         transform: translate(-50%,-50%);
-        top: 40%;
-	    left: 40%;
+        top: 45%;
+	    left: 38%;
         margin:0 auto;
         padding: 40px 30px 10px 30px;
         background-color:rgb(254, 254, 254);
         font-weight: 600;
-        height: 355px;
+        height: 375px;
         width: 600px;
         z-index: 99999;
     }
@@ -888,6 +888,7 @@
         margin-bottom: 15px;
     }
     .mod{
+        height: 40px;
         margin-left: 38%;
         margin-top: -30px;
         text-align: center;
