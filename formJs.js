@@ -1,30 +1,26 @@
-/*document.addEventListener('click', function(event) {
- 
+document.addEventListener('click', function(event) {
     let el=event.target;
     let elem=document.getElementById("modal");
     if(el.getElementById("show")){
  // Показать полупрозрачный DIV, чтобы затенить страницу
     // (форма располагается не внутри него, а рядом, потому что она не должна быть полупрозрачной)
-  function showCover() {
-      let coverDiv = document.createElement('div');
-      coverDiv.id = 'cover-div';
+  	history.pushState(null, null, 'https://mercyu.github.io/web8');
+      let coverDiv = document.getElementById('ffff');
       // убираем возможность прокрутки страницы во время показа модального окна с формой
       document.body.style.overflowY = 'hidden';
-      document.body.append(coverDiv);
-    }
-    showCover();
-    elem.hidden=false;
-
+      coverDiv.style.display="block";
+      elem.style.display="block";
     }
     if(el.getElementById("close")){
-      elem.hidden=true;
-    function hideCover() {
-      document.getElementById('cover-div').remove();
+      elem.style.display="none";
+      coverDiv.style.display="none";
       document.body.style.overflowY = '';
     }
-    hideCover();
-    }
-})*/
+    addEventListener("popstate",function(e){
+      elem.style.display="none";
+      coverDiv.style.display="none";
+      },false); 
+})
  
 $('document').ready(function() { // после загрузки страницы
   $("#form").submit(function(e){ // перехватываем все при событии отправки
@@ -43,17 +39,22 @@ $('document').ready(function() { // после загрузки страницы
 			   url: 'https://formcarry.com/s/QST5kGOlwRj', // используем готовый бэкенд для сохранения формы
 			   data: $(this).serialize(), // данные для отправки
            success: function(data){ // событие после удачного обращения к серверу
-		       			alert('Вы успешно заказали звонок! Ожидайте обратной связи.');
+                 alert('Вы успешно заказали звонок! Ожидайте обратной связи.');
+                  $("#fio").val("");
+                  $("#tel").val("");
+                  $("#mes").val("");
 		         },
 		       error: function () { // в случае неудачного завершения запроса к серверу
-		            alert("Произошла ошибка. Попробуйте снова."); 
+                alert("Произошла ошибка. Попробуйте снова."); 
+                 $("#fio").val("");
+                 $("#tel").val("");
+                 $("#mes").val("");
 		         },
 			     });
 		}
 		return false; // отключаем стандартную отправку формы
 	});
 });
-/*
 document.addEventListener("DOMContentLoaded", function() { // событие загрузки страницы
 	history.pushState(null, null, 'https://mercyu.github.io/web8');
     // выбираем на странице все элементы типа textarea и input
@@ -67,4 +68,4 @@ document.addEventListener("DOMContentLoaded", function() { // событие з�
             window.sessionStorage.setItem(e.name, e.value);
         })
     })
-	    });*/
+	    });
